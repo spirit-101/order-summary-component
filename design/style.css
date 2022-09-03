@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Red Hat Display";
+
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: hsl(225, 100%, 95%);
+  background-position: center;
+  position: relative;
+  font-size: 1.6rem;
+}
+
+.container {
+  /* margin-top: 5rem; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 450px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.content {
+  text-align: center;
+  padding: 7%;
+}
+
+.card-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 1.2rem;
+}
+
+.title-text {
+  font-size: 1.4rem;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.plan-box {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  padding: 2.5rem;
+  border-radius: 11px;
+  margin-bottom: 4rem;
+}
+
+.plan-info {
+  margin-left: 1.2rem;
+}
+
+.plan-name {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.plan-price {
+  font-size: 1.3rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-link {
+  margin-left: 10rem;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.3rem;
+  color: hsl(245, 75%, 52%);
+  transition: all 0.4s;
+}
+
+.change-link:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-btn {
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 600;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.plan-btn:hover {
+  background-color: hsl(228, 45%, 44%);
+}
+
+.cancel-btn {
+  text-align: center;
+  font-size: 1.4rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    font-size: 1.4rem;
+  }
+
+  .container {
+    max-width: 87%;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .plan-box {
+    padding: 1.2rem;
+  }
+
+  .content {
+    padding: 9% 7%;
+  }
+
+  .plan-name {
+    font-size: 1.2rem;
+  }
+}
