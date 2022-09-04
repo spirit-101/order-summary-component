@@ -6,7 +6,7 @@
 
 🌐 [View the live site](https://spirit-101.github.io/order-summary-component/)
 
-🧠 [Check out the solution](https://www.frontendmentor.io/solutions/qr-code-component-5Z7rbTmMzu)
+🧠 [Check out the solution](https://www.frontendmentor.io/solutions/order-summary-component-5TdVwJYvzs)
 
 📝 [View the challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
