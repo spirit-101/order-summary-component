@@ -1,6 +1,6 @@
 ![portada frontend mentor](/design/desktop-design.jpg)
 
-<h1 align="center">QR Code Component</h1>
+<h1 align="center">Order Summary Component</h1>
 
 <hr>
 
